@@ -2,6 +2,8 @@ name: debugger-action
 on: 
   watch:
     types: started
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
